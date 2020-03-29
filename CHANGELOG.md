@@ -2,6 +2,8 @@
 * 🌱 Cread Card, Footer, Header components
 * 🐩 Working on Card styling
 * 🧂 Added react-google-font-loader
+* 🧂 Added useFetch.js hook for fetching API data
+* 👻 Rendering data out into Card component
 
 ## March 27, 2020
 * 🌱 Created Router, Home, NotFound and Photography components
