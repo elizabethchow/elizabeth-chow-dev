@@ -36,10 +36,9 @@ footer {
 // CARD COMPONENT STYLES BEGIN
 .card-wrapper {
   background-color: rgb(206, 148, 182);
-  //max-width: 180px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 5px;
-  // margin-bottom: 10px;
+
 }
 
 .card-image-wrapper {
@@ -56,7 +55,6 @@ footer {
 }
 
 .card-title-wrapper {
-  // width: 100%;
   text-align: center;
 }
 
