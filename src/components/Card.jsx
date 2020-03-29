@@ -5,8 +5,8 @@ export default function Card(props) {
 		<div className="card-wrapper">
 			<div className="card-image-wrapper">
 				<picture>
-					<source type="image/jpeg" srcSet="https://picsum.photos/500/500" />
-					<img src="https://picsum.photos/500/500" alt="" />
+					<source type="image/jpeg" srcSet={props.images[0].sizes.large} />
+					<img src={props.images[0].sizes.large} alt="" />
 				</picture>
 			</div>
 			<div className="card-title-wrapper" dangerouslySetInnerHTML={{ __html: props.title }}/>

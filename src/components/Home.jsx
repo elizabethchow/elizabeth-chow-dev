@@ -38,12 +38,12 @@ export default function Home() {
 									console.log(item.title.rendered);
 								}}/>
 						))}
+					{/* <Card />
 					<Card />
 					<Card />
 					<Card />
 					<Card />
-					<Card />
-					<Card />
+					<Card /> */}
 				</div>
 			</main>
 			<Footer></Footer>
