@@ -3,11 +3,29 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import Photography from './Photography';
 import NotFound from './NotFound';
+import GoogleFontLoader from 'react-google-font-loader';
 
 
 export default function Router() {
 	return (
 		<BrowserRouter>
+			{/* Loads Google Fonts */}
+			<GoogleFontLoader
+				fonts={[
+					{
+						font: 'Mountains of Christmas',
+						weights: [400, 700],
+						/*
+							thin: 100
+							regular: 400
+							medium: 500
+							extrabold: 800
+						*/
+					}
+				]}
+			/>
+
+
 			<div id="wrapper">
 				<Switch>
 					{/*
