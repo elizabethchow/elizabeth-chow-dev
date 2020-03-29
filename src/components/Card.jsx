@@ -11,7 +11,13 @@ export default function Card(props) {
 			</div>
 			<div className="card-title-wrapper" dangerouslySetInnerHTML={{ __html: props.title }}/>
 			<div className="card-description-wrapper" dangerouslySetInnerHTML={{ __html: props.description}} />
-			<div className="card-type-wrapper">{props.type}</div>
+			{props.type.length > 0 &&
+				props.type.map((item, index) => (
+					<div
+						key={index}
+						className="type-block"
+						>{item}</div>
+				))}
 		</div>
 	)
 }
